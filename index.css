@@ -123,7 +123,7 @@
   justify-content: center;
   height: 100%;
   text-decoration: none;
-  color: #333;
+  color: #f8f2f2;
 }
 
 .Section_Second_GrandChild1:hover,
@@ -133,7 +133,7 @@
 }
 
 .Main {
-  height: 40vh;
+  height: auto;
   margin-top: 10px;
 }
 
@@ -185,6 +185,7 @@
   display: flex;
   height: 20%;
   width: 100%;
+  justify-content: space-between;
   text-transform: uppercase;
 }
 .Main_Child2_GrandChild1_Right {
@@ -278,16 +279,17 @@
   margin-bottom: 10px;
   height: 100px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: lightbrown;
   padding: 10px;
 }
 
 .field {
+  margin-top: 10px;
   display: flex;
+  text-align: center;
+  height: 50px;
+  width: 100%;
   gap: 5px;
+  background-color: blanchedalmond;
 }
 
 .field img {
@@ -357,3 +359,20 @@
   justify-content: center;
   margin-right: 5px;
 }
+.Main_Child3_grandchild1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.Right_Side {
+  justify-content: flex-start;
+}
+.Left_Side {
+  justify-content: flex-end;
+}
+/* .footer {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-top: 10px;
+} */
