@@ -303,3 +303,57 @@
   display: flex;
   justify-content: space-between;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .Nav {
+    flex-direction: column;
+  }
+
+  .Nav_Logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .Nav1,
+  .Nav3 {
+    margin-right: 0;
+  }
+
+  .Section_First_Child1 {
+    flex-direction: column;
+  }
+
+  .Section_First_Child2_GrandChild1,
+  .Section_First_Child2_GrandChild3 {
+    width: 100%;
+  }
+
+  .Main_Child1 {
+    flex-direction: column;
+  }
+
+  .GrandChild2_Main {
+    justify-content: center;
+  }
+
+  .Main_Child2_GrandChild1_Left > button {
+    margin-top: 10px;
+  }
+}
+
+.Nav_Logo {
+  height: 1.5625rem;
+  width: 3.125rem;
+  color: azure;
+  background-color: rgb(240, 82, 105);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
